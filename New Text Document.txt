@@ -1,5 +1,0 @@
-public native String getMyString();
-
-    static {
-        System.loadLibrary("native");
-    }
