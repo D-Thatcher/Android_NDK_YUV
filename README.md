@@ -9,10 +9,14 @@ To reference these native methods in an Activity (Java), declare the method you 
 `public native String getMyString();
 ` 
 <br> 
-and load the library 
+and load the library that contains that method
 <br> 
 `
 static {
         System.loadLibrary("native");
     }
 `
+
+<br>
+These declarations should occur in-line with in your class' private member variables
+<br>
